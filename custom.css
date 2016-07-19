@@ -1,0 +1,2588 @@
+
+
+
+/*-----------------------faq page----------------------------------------*/
+.faqHeader {
+				font-size: 27px;
+			margin: 20px;
+			color: #555555;
+        }
+        .panel-heading [data-toggle="collapse"]:after {
+			font-family: 'Glyphicons Halflings';
+			content: "\e072"; /* "play" icon */
+			float: right;
+			color: #333333;
+			font-size: 18px;
+			line-height: 22px;
+			/* rotate "play" icon from > (right arrow) to down arrow */
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+        }
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+			/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			transform: rotate(90deg);
+			color: #000000;
+        }
+		.panel-default>.panel-heading+.panel-collapse .panel-body {
+			border-top-color: #777777;
+			color: #444444;
+		}
+		.page-header {
+			border-bottom: 1px solid #40331C;
+			color: #222222;
+		}
+		.panel-default>.panel-heading {
+			color: #735726;
+			background-color: #f5f5f5;
+			border-color: #ddd;
+		}
+		.alert-warning {
+			color: #FFD388;
+			background-color: #5388C0;
+			border-color: #fbeed5;
+		}
+		
+		
+/*--------------------------TEMP--------------------------------------*/
+.sub-buttons {
+	padding-top:25px;
+	padding-bottom:30px;
+	padding-left: 15px;	
+}
+
+.sub-buttons a {
+	color:gray;	
+	margin-right: 20px;
+	border-width: 1px;
+	border-color: gray;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+
+/*-----------------------MAIN LOGO----------------------------------------*/
+
+img.x1 {
+height:40px;
+}
+/*-----------------------ALL PAGES and BLOCKS----------------------------------------*/
+
+
+
+
+/*-----------------------SHOP PAGE----------------------------------------*/
+.menu-bar {
+	
+	padding-top:50px;	
+}
+
+.shop-page-title {
+	padding-top:50px;
+}
+
+.shop-page-title h1 {
+	padding-top:50px;
+	color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;	
+	text-transform: uppercase;	
+}
+
+.direction-arrow {
+	padding-top:50px;
+	color: rgba(255,255,255,0.5)
+}
+.m
+
+
+/*-----------------------MEGA MENU----------------------------------------*/
+
+.menu-shop {
+ 
+width:100%; 
+height:50px;
+font-size: 18px;
+text-transform: uppercase;
+color:#2D2D2D;
+border-style: solid;
+border-width: 3px;
+border-color: #217EC2;
+}
+
+
+
+.button-gap {
+padding-left:100px;
+
+}
+
+.fa-2x {
+padding-top:200px;
+color:white;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container-fluid-img {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	overflow: hidden;
+	
+}
+.relative {
+position: relative;
+}
+
+
+/*---------------------------------------------------------------*/
+/* 5. jumbotron */
+/*---------------------------------------------------------------*/
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://www.dev.waterrower.co.uk/images/landing-page-background/waterrower-landing-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+    height: 960px;
+}
+
+.jumbo  {
+    padding-top: 306px;
+	padding-right:0px;
+    text-align: left;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    display: inline-block;
+}
+
+.jumbotron p {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.jumbotron i {
+		padding-top:250px;
+}
+.jumbotron .landing {
+		padding-top:250px;
+}
+.title {
+    display: inline;
+}
+
+
+
+/*---------------------------------------------------------------*/
+/* 8. Introduction */
+/*---------------------------------------------------------------*/
+
+.introduction {
+    background-color: #313335;
+	
+}
+
+.introduction-text {
+    padding-top: 70px;
+    padding-bottom: 75px;
+    text-align: left;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #313335;
+    color: #fff;
+    font-size: 13px;
+    Float: right;
+}
+
+.introduction-text h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.introduction-text h3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    text-align: right;
+}
+.introduction-bar-mini {
+	float:left;
+    border-top: 2px solid #217EC2;
+    width: 40px;
+    padding-bottom: 15px;
+    margin: 0 ;
+}
+.introduction-bar {
+	float:left;
+    border-top: 2px solid #217EC2;
+    width: 344px;
+    padding-bottom: 15px;
+    margin: 0 ;
+}
+
+#text-introduction {
+    color: #c2c2c2;
+    padding-top: 20px;
+}
+.download {
+    text-align: center;
+}
+
+/*---------------------------------------------------------------*/
+/* 8. DESIGN INNOVATION */
+/*---------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------*/
+/* 14. Background images */
+/*---------------------------------------------------------------*/
+
+
+
+
+#wood-texture-1 {
+    background: url(http://www.dev.waterrower.co.uk/images/landing-page-background/wood-texture-blured-dark.jpg);
+	background-position: 0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+#slate {
+    background: url(http://www.dev.waterrower.co.uk/images/landing-page-background/dark_textures_853818.jpg);
+	background-position: 0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+#curved-1 {
+    background: url(http://www.dev.waterrower.co.uk/images/landing-page-background/curved-1.jpg);
+	background-position: 0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#worldmap {
+    background: url(http://www.dev.waterrower.co.uk/images/worldmap.jpg) 100% fixed;
+	background-position: 0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#shop-background {
+    background: url(http://www.dev.waterrower.co.uk/images/shop/waterrower-shop-club.jpg)  100% fixed;
+	background-position: 0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#design-club {
+    background: url(http://www.dev.waterrower.co.uk/images/design/design-club.jpg) 100% fixed;
+	background-position: 0px -60px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	height: 470px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#m1series {
+    background: url(http://www.dev.waterrower.co.uk/images/perfect-exercise/m1-commercial.jpg)  100% fixed;
+	background-position:0px 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 350px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#innovation {
+    background: url(http://www.dev.waterrower.co.uk/images/waterflywheel/rowing-top-view-cover.jpg) 100% 0 fixed;
+	background-position: 0px -126px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 350px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;	
+}
+
+#mission2 {
+    background: url(http://www.dev.waterrower.co.uk/images/waterrower/mountains.jpg)  100% fixed;
+	background-position: 0px -292px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 350px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#mountians {
+    background: url(http://www.dev.waterrower.co.uk/images/waterrower/mountains.jpg)  100% fixed;
+	background-position: 0px -25px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#inthegym {
+    background: url(http://www.dev.waterrower.co.uk/images/in-the-gym/background/filtered-6526.jpg)  100% fixed;
+	background-position: 0px -135px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.download h2 {
+    color: #FFFFFF;
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 10px;
+	text-transform:uppercase;
+}
+
+download {
+    text-align: center;
+}
+
+/*-------------- RESPONSIVE BACKGROUNDS ---------------*/
+
+.design-commercial {
+    margin-bottom: 0px;
+    background-image: url(http://www.dev.waterrower.co.uk/images/design/design-commercial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+    height: 400px;
+}
+
+/*-------------- TEXTURE BACKGROUNDS ---------------*/
+
+.texture-1 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/dark_fish_skin.png);
+	background-repeat: repeat;
+   
+    
+}
+.texture-2 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/dark_wall.png);
+	background-repeat: repeat;
+   
+}
+.texture-3 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/darkdenim3.png) ;
+	background-repeat: repeat;
+    
+    
+}
+
+.texture-5 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/diagmonds.png) fixed;
+	background-repeat: repeat;
+   
+}
+.texture-6 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/fake_brick.png);
+	background-repeat: repeat;
+   
+}
+
+.texture-8 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/hexabump.png) fixed;
+	background-repeat: repeat;
+   
+    
+}
+.texture-9 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/hixs_pattern_evolution.png);
+	background-repeat: repeat;
+   
+}
+.texture-10 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/irongrip.png) ;
+	background-repeat: repeat;
+    
+    
+}
+
+.texture-12 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/px_by_Gre3g.png);
+	background-repeat: repeat;
+   
+}
+.texture-13 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/real_cf.png);
+	background-repeat: repeat;
+   
+}
+.texture-14 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/rubber_grip.png);
+	background-repeat: repeat;
+   
+}
+.texture-15 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/tactile_noise.png);
+	background-repeat: repeat;
+   
+}
+.brick-wall {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/brickwall-warmgray-3.png);
+	background-repeat: repeat;
+   
+}
+.classy_fabric {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/classy_fabric.png);
+	background-repeat: repeat;
+   
+}
+.wood-texture {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/tileable-wood-texture-gray.png);
+	background-repeat: repeat;
+   
+}
+.Melamine-wood-1 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-001.png.png);
+	background-repeat: repeat;
+   
+}
+.melamine-wood-2 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-002.png);
+	background-repeat: repeat;
+   
+}
+.melamine-wood-3 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-003.png) fixed;
+	background-repeat: repeat;
+   
+}
+
+.melamine-wood-4 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-004.png) fixed;
+	background-repeat: repeat;
+   
+}
+.melamine-wood-5 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-005.png) fixed;
+	background-repeat: repeat;
+   
+}
+.melamine-wood-5-hor {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-005-hor.png) fixed;
+	background-repeat: repeat;
+   
+}
+
+.melamine-wood-6 {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/Melamine-wood-006.png);
+	background-repeat: repeat;
+   
+}
+.webtreats_wood-pattern5-1024 {
+	
+	background: url(http://www.dev.waterrower.co.uk/images/texture/webtreats_wood-pattern5-1024.jpg);
+	background-repeat: repeat;
+}
+.webtreats_wood-pattern5-1024-hor {
+	
+	background: url(http://www.dev.waterrower.co.uk/images/texture/webtreats_wood-pattern5-1024-hor.jpg) fixed;
+	background-repeat: repeat;
+}
+.seamless-wooden-planks-0005 {
+	
+	background: url(http://www.dev.waterrower.co.uk/images/texture/seamless-wooden-planks-0005.jpg);
+	background-repeat: repeat;
+}
+
+.texture-lodyas {
+    background: url(http://www.dev.waterrower.co.uk/images/texture/footer_lodyas.png) fixed;
+	background-repeat: repeat;
+   
+}
+
+/*-------------- Comtact us page ---------------*/
+.contactus-title h1 {
+	text-align:center;
+	color: #FFFFFF;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.contacts h4 {
+	padding-top:15px;	
+}
+
+
+
+/*-------------- WATERROWER SERIES - PAGES start ---------------*/
+
+
+
+.product-box {
+	padding-right: 40px;
+    padding-left: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#product-line h4 {
+	padding-bottom:55px;
+}
+
+.product-box h3 {
+	padding: 20px 20px 0 0;
+	margin:0px;	
+}
+.product-box h3 {
+	padding: 20px 20px 0 0;
+	margin:0px;	
+}
+
+.image-padding-top {
+	padding-top:25px;
+
+}
+.button-padding {
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+
+.catigory-page-box  {
+	border-style: solid; 
+	border-width: 1px;
+	padding:5px
+}
+
+.list-indent {
+	padding-left:20px;	
+}
+.title-series-center {
+	text-align: center;
+}
+.title-series-center h2 {
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 260px;
+	font-weight: 700;
+    font-size: 40px;
+	text-transform: uppercase;
+}
+
+
+.title-series-innovation {
+	padding-left: 191px;
+}
+
+.title-series-innovation h2 {
+	color: #FFFFFF;
+	padding-top: 260px;
+	font-weight: 700;
+    font-size: 40px;
+	text-transform: uppercase;
+}
+.series-2nd-title {
+	text-transform: uppercase;
+	color:gray;	
+}
+.title-series h2 {
+	color: #FFFFFF;
+	padding-top: 260px;
+	font-weight: 700;
+    font-size: 40px;
+	text-transform: uppercase;
+}
+
+
+onitor-info {
+	
+	padding-top: 90px;
+}
+
+/*-------------- WATERROWER SERIES - PAGES end ---------------*/
+.block-title h2 {
+	text-align: center;
+    color: #FFFFFF;
+    padding-top: 300px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.block-title h2 {
+	text-align: center;
+    color: #FFFFFF;
+    padding-top: 50%;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+
+.download p {
+    background-image: url(http://www.dev.waterrower.co.uk/images/download.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.down {
+    margin-bottom: 75px;
+}
+
+
+/*---------------------------------------------------------------*/
+/* Backgrounds end */
+/*---------------------------------------------------------------*/
+
+
+/*-------------- bootstrap.code09.css TAB CONTENTS STYLES---------------*/
+.dropcap:first-letter {
+    float: left;
+    padding-right: .3em;
+    color: #AAA3C1;
+    font-size: 2.9em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.bo-l-h {
+    padding-left: 20px;
+    border-left: 1px solid #AAA3C1;
+}
+.pa-b-100 {
+    padding-bottom: 100px !important;
+	padding-top: 100px;
+	background-color:#353230;
+	
+}
+
+.pa-b-100 a {
+    color:white;
+	
+}
+.pa-b-100-small-block {
+    padding-bottom: 33px !important;
+	padding-top: 40px;
+	
+	background-color:#353230;
+	color:#FFFFFF;
+}
+.pa-b-100-light {
+    padding-bottom: 100px !important;
+	padding-top: 40px;
+	
+	background-color:#B7BBBC;
+	color:black;
+}
+
+.pa-b-100-light-small-block {
+    padding-bottom: 18px !important;
+	padding-top: 18px;
+	
+	background-color:#B7BBBC;
+	color:black;
+}
+.pa-b-100-extra-padding {
+    padding-bottom: 100px !important;
+	padding-top: 100px;
+	background-color:#353230;
+}
+
+
+/*-------------- SUB NAV ---------------*/
+
+.subnav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}	
+
+.subnav li {
+	float: left;
+	border-right: 0;
+	border-left: 1px solid #bbb;
+}	
+
+.subnav .active {
+    background-color: #4CAF50;
+}
+
+.subnav a {
+	color:#ffffff;
+	display: block;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+	font-size:10px;
+	line-height: 18px;
+	text-transform: uppercase;
+	}
+	
+	
+/*--------------sliders---------------*/
+.slider-first{
+	
+	padding:25px;
+	color:white;
+}
+.slider {
+	background-color: rgba(0,0,0,0.8);
+	padding:25px;
+	color:white;
+}
+
+
+
+/*-------------- Home Page---------------*/
+
+.landing-page p {
+	font-size:18px;	
+}
+.all-rowers {
+	padding-left:80px;
+}
+.all-rowers .col-sm-1 {
+	padding-right:0px;
+	padding-left:0px;
+	width:9%;
+}
+.all-rowers .col-sm-2 {
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.all-rowers a {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.all-rowers .col-sm-1:nth-child(10n) {
+	width: 12%;	
+}
+.rower-buttons .btn:nth-child(1) {
+	margin-right:35px;	
+}
+.rower-buttons {
+	margin-top:50px;	
+}
+
+
+.tab {
+	margin-right:33px;
+}
+
+.carousel-65 {
+	padding-bottom: 65%;
+	text-align: left;
+}
+.carousel-25 {
+	padding-bottom: 25%;
+	text-align: left;
+}
+.circle {
+	padding: 60px 0 60px 0;
+}
+
+.home-title-25 {
+	padding-top: 25%;	
+}
+.home-title-35 {
+	padding-top: 35%;	
+}
+.home-title-50 {
+	padding-top: 50%;	
+}
+.home-title-90 {
+	padding-top: 90%;	
+}
+
+.p-indent p{
+	padding-left:15px;	
+}
+
+.features p {
+		padding-bottom: 30px;
+}
+/*-------------- MAIN BLOCKS---------------*/
+
+
+.block-dark a {
+	color: #D2CED1;
+	
+}
+
+.block-light a {
+	color: #252525;
+}
+
+
+.dark {
+	background-color:#2e4660;
+	
+}
+.dark-blue {
+	background-color:#436289;
+	
+}
+.light-gray {
+	background-color:#DBD9CE;
+	
+}
+.pa-b {
+	padding-bottom: 20px !important;
+	padding-top: 10px;
+	
+	
+	}
+
+.pa-b-tab {
+	padding-bottom: 20px !important;
+	padding-top: 200px;
+	
+	
+	}
+	.pa-b-tabs {
+	padding-bottom: 20px ;
+	padding-top: 20px;
+	
+	
+	}
+.border-line	 {
+	border-top: 1px solid #585858;	
+	border-bottom: 1px solid #585858;
+}
+
+	
+
+	
+.main-title {
+	padding-top: 100px;
+	
+}
+
+
+.main-title h1 {
+	color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;	
+	text-transform: uppercase;
+}
+
+.main-title h2 {
+	color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 10px;	
+	
+}
+
+.main-title h3 {
+	color: #D6D6D6;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 10px;	
+	text-transform: uppercase;
+	padding-top:45px;
+}
+
+.blue-h1 h1 {
+	color: #436289;
+}
+
+
+
+.half-page {
+	padding-top: 15px;
+	padding-bottom: 15px;		
+}
+
+.half-page a {
+	color:#E3E3E3;	
+}
+
+.half-page h2 {
+	padding-top: 115px;
+}
+
+.gap {
+	padding-top:20px;
+}
+
+.spacer {
+	padding-top:45px;
+}
+.spacer-2 {
+	padding-top:150px;
+}
+
+.pa-b .title h1 {
+	padding-top: 0px;
+
+}
+
+
+.icon-text {
+	padding-top:80px;
+}
+
+.explore-arrow {
+	padding-top:0px;
+	padding-left: 0px;
+	color: rgba(255,255,255,0.8)
+}
+
+.quick-link-25 {
+	margin-top:25px;	
+}
+
+.design-detail {
+	padding-top:75px;
+}
+
+.design-detail img {
+	border: 2px solid gray;
+}
+
+/*-------------- lines --------------*/
+.home-title-50 .hor-line-right {
+	border-top: 2px solid white;
+width: 600px;
+position: absolute;
+margin-left: 235px;
+margin-top: 25px;	
+}
+.home-title-50 .hor-line-left {
+	border-top: 2px solid white;
+width: 550px;
+position: absolute;
+margin-left: -549px;
+margin-top: -163px;	
+}
+.home-title-90 .hor-line-left {
+	border-top: 2px solid white;
+width: 550px;
+position: absolute;
+margin-left: -549px;
+margin-top: -163px;	
+}
+/*-------------- FLAG --------------*/
+.flag-block {
+    padding-bottom: 0px !important;
+	padding-top: 0px;
+	
+}
+.flag {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 20px;
+	
+}
+.flag h3 a {
+	font-size:10px;
+	text-align:center;
+}
+/*-------------- Bootstrap override---------------*/
+
+.label {
+	color: #383838;	
+}
+.btn-rowers  {
+	padding: 5px 18px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	border-width: 1px;
+	background-color: rgba(100,100,100,0.6);
+	border-color: #181818;
+}
+
+.btn-lg-landing-page {
+    padding: 9px 75px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+	border-width:1px;
+	background-color: rgba(100,100,100,0.6);
+}
+
+.btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.btn-outlined.btn-primary {
+    background: none;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+}
+.btn-outlined.btn-primary:hover,
+.btn-outlined.btn-primary:active {
+    color: #FFF;
+    background: #428bca;
+    border-color: #428bca;
+}
+.home-button {
+	font-size: 25px;
+	margin-bottom: 29px;
+}
+.carousel-caption {
+	
+    text-shadow: none;
+}
+
+	
+/* ***********************************************************
+   ******************** CODETABS CORE ************************
+   *********************************************************** */
+.ct {
+    position: relative;
+}
+
+.ct-pag,.ct-viewport {
+    overflow: hidden;
+}
+
+.ct-ie7 .ct-pag,.ct-ie7 .ct-viewport {
+    position: relative;
+}
+
+.ct-hide {
+    display: none !important;
+}
+
+.ct-noclip {
+    overflow: visible !important;
+}
+
+.ct-ghost {
+    visibility: hidden !important;
+}
+
+.ct-wfit>* {
+    width: 100% !important;
+}
+
+.ct-hfit>* {
+    height: 100% !important;
+}
+
+.ct-canvas,.ct-paginner {
+    overflow: visible !important;
+    position: relative;
+}
+
+.ct.ct-ready .ct-canvas {
+    height: 100%;
+}
+
+.ct-slide {
+    width: 100%;
+}
+
+.ct-slide.ct-sleep {
+    height: 100%;
+}
+
+.ct-slide.ct-sleep>* {
+    display: none;
+}
+
+.ct-init {
+    visibility: hidden;
+    height: 0;
+}
+
+.ct-ready {
+    visibility: visible;
+}
+
+.ct.ct-ready {
+    height: auto;
+}
+
+.ct-outside .ct-pagitem,.ct-ready .ct-pagitem,.ct-ready .ct-slide {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ct-canvas,.ct-pagitem,.ct-slide,.ct-viewport {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.ct-height-fixed .ct-slide {
+    height: 100%;
+}
+
+.ct-height-fixed .ct-slide>.ct-imgback {
+    -webkit-transition: top .2s;
+    -moz-transition: top .2s;
+    transition: top .2s;
+}
+
+.ct-next,.ct-playpause,.ct-prev {
+    cursor: pointer;
+    z-index: 3;
+}
+
+.ct-next.ct-inactived,.ct-prev.ct-inactived {
+    opacity: .25;
+}
+
+.ct-next,.ct-prev {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    opacity: .2;
+    background: url(imgs/icon_nav.png) no-repeat;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.ct-prev {
+    left: 10px;
+    background-position: 0 0;
+}
+
+.ct-next {
+    right: 10px;
+    background-position: -50px 0;
+}
+
+.ct-next:hover,.ct-prev:hover {
+    opacity: 1;
+}
+
+
+@media only screen and (min-width:1px) and (max-width:320px) {
+   
+	.ct-nav {
+        display: none;
+    
+}
+}
+.ct-pag {
+    z-index: 3;
+}
+
+.ct-pagitem {
+    cursor: pointer;
+	font-size:14px;
+	font-weight: 700;
+	
+}
+.ct-pagitem-light {
+    cursor: pointer;
+	font-size:14px;
+	font-weight: 700;
+	color:white;
+	
+}
+
+.ct-tab .ct-pagitem {
+    padding-bottom: 5px;
+    color: #252525;
+    white-space: nowrap;
+}
+
+.ct-tab .ct-pagitem.ct-cur {
+    color: #EDEDED;
+}
+
+.ct-tab.ct-pag-hor.ct-pag-top {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ct-tab.ct-pag-hor.ct-pag-bottom {
+    border-top: 1px solid #e5e5e5;
+}
+
+.ct-pag-hor>.ct-viewport {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.ct-tab.ct-pag-ver.ct-pag-top {
+    float: left;
+}
+
+.ct.ct-pag-ver.ct-pag-bottom {
+    position: relative;
+}
+
+.ct-tab.ct-pag-ver.ct-pag-bottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ct-pag-ver.ct-pag-top>.ct-viewport {
+    padding-left: 30px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    padding-right: 30px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 10px 20px 10px 0;
+}
+
+.ct-tab.ct-pag-ver.ct-pag-bottom.ct-outside {
+    position: static;
+}
+
+.ct-list .ct-pagitem {
+    position: static;
+    display: inline;
+}
+
+.ct-thumb .ct-pagitem {
+    width: 75px;
+    height: 75px;
+}
+
+.ct-thumbitem {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.ct-thumbitem>img {
+    position: relative;
+    -webkit-transform: translateZ(0);
+}
+
+.ct-capinner {
+    position: relative;
+}
+
+.ct-cap-last {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.ct-cap-cur:after,.ct-cap-last:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.ct-slide.loading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ct-loader {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 50%;
+    top: 50%;
+    margin-left: -27px;
+    margin-top: -27px;
+    text-indent: -999999px;
+    background: url(http://www.dev.waterrower.co.uk/code/imgs/loader.gif) no-repeat #fff;
+    border-radius: 50%;
+}
+
+.ct-timer-bar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 1px;
+    background-color: hsla(0,0%,0%,.08);
+}
+
+.ct-timer-bar>.ct-timeritem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #999;
+    background-color: hsla(0,0%,0%,.3);
+}
+
+.ct-timer-arc {
+    width: 40px;
+    height: 40px;
+}
+
+.ct-timer-number {
+    font-size: 11px;
+    text-align: center;
+}
+
+.ct-grab,.slide-as-pag .ct-grab .ct-cur {
+    cursor: url(http://www.dev.waterrower.co.uk/code/imgs/grab2.cur),move;
+    cursor: url(imgs/grab2.png) 12 10,url(http://www.dev.waterrower.co.uk/code/imgs/grab2.cur),move;
+}
+
+.ct-grabbing,.ct-grabbing .ct-pagitem,.slide-as-pag .ct-grabbing .ct-cur {
+    cursor: url(http://www.dev.waterrower.co.uk/code/imgs/grabbing2.cur),move;
+    cursor: url(imgs/grabbing2.png) 12 10,url(http://www.dev.waterrower.co.uk/code/imgs/grabbing2.cur),move;
+}
+
+.ct-imgback>img {
+    display: block;
+    max-width: none !important;
+}
+
+.ct-dot .ct-slide,.ct-line .ct-slide {
+    overflow: hidden;
+}
+
+.ct-dot .ct-imgback,.ct-line .ct-imgback {
+    position: relative;
+    overflow: hidden;
+}
+
+.ct-dot .ct-imgback>img,.ct-line .ct-imgback>img {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.ct-dot>.ct-viewport>.ct-canvas {
+    overflow: hidden;
+}
+
+.ct-dot>.ct-viewport>.ct-canvas>.ct-slide {
+    visibility: hidden;
+}
+
+.ct-dot>.ct-viewport>.ct-canvas>.ct-slide.ct-cur {
+    visibility: visible;
+    z-index: 2;
+}
+
+.ct-dot>.ct-viewport.ct-hNative,.ct-line>.ct-viewport.ct-hNative {
+    height: auto !important;
+}
+
+.ct-dot>.ct-viewport.ct-hNative>.ct-canvas>.ct-slide.ct-cur,.ct-line>.ct-viewport.ct-hNative>.ct-canvas>.ct-slide.ct-cur {
+    position: relative;
+}
+
+.ct .ct,.ct .ct .ct-cur {
+    visibility: hidden;
+}
+
+.ct-slide.ct-cur .ct,.ct-slide.ct-cur .ct .ct-cur {
+    visibility: visible;
+}
+
+.ct .ct-slide .ct .ct,.ct .ct-slide .ct .ct .ct-cur {
+    visibility: hidden;
+}
+
+.code-animated .ct,.code-animated .ct .ct-cur,.ct-line.ct-fxRun .ct,.ct-line.ct-fxRun .ct .ct-cur,.ct-slide.ct-cur .ct .ct,.ct-slide.ct-cur .ct .ct .ct-cur {
+    visibility: visible;
+}
+
+.fx-overlay {
+    position: absolute;
+    left: 50%;
+}
+
+.fx-inner {
+    position: relative;
+    left: -50%;
+}
+
+.ct-dot .fx-front {
+    overflow: hidden;
+    position: absolute;
+}
+
+.fx-front .ct-imgback {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.fx-front .ct-imgback>img {
+    left: 0;
+}
+
+.fx-back {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.fx-back .ct-imgback,.fx-back .ct-imgback>img {
+    left: 0;
+}
+
+.ct-height-fixed .fx-back {
+    height: 100%;
+}
+
+.ct-shadow {
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.ct-shadow>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ct-outside.ct-tab.ct-pag-ver.ct-pag-top {
+    float: none;
+}
+
+.ct-androidNative.ct-line .ct-imgback {
+    -webkit-transform: translateZ(0);
+}
+
+.ct-firefox .code-animated {
+    outline: transparent solid 1px;
+}
+
+.ct,.ct-cap,.ct-pag {
+    -webkit-font-smoothing: antialiased;
+}
+
+.ct-swipe-on {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.ct-pag,.ct-viewport {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ct-flatbox>.ct-tab {
+    margin-bottom: 0;
+}
+
+.ct-flat>.ct-tab .ct-pagitem.ct-cur,.ct-flatbox>.ct-tab .ct-pagitem.ct-cur {
+    background-color: #436289;
+    color: #fff;
+}
+
+.ct-flat>.ct-tab.ct-pag-hor.ct-pag-top,.ct-flatbox>.ct-tab.ct-pag-hor.ct-pag-top {
+    border-bottom: 3px solid #436289;
+}
+
+.ct-flat>.ct-tab.ct-pag-hor.ct-pag-bottom,.ct-flatbox>.ct-tab.ct-pag-hor.ct-pag-bottom {
+    border-top: 2px solid #c1a26e;
+}
+
+.ct-flatbox.ct-pag-hor>.ct-viewport {
+    padding: 20px;
+    border: solid #e5e5e5;
+    background-color: #fff;
+}
+
+.ct-flatbox.ct-pag-hor.ct-pag-top>.ct-viewport {
+    border-width: 0 1px 1px;
+}
+
+.ct-flatbox.ct-pag-hor.ct-pag-bottom>.ct-viewport {
+    border-width: 1px 1px 0;
+}
+
+.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 11px 20px 9px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur,.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    margin-top: -1px;
+    border-bottom-color: #c1a26e;
+}
+
+.ct-flatbox.ct-pag-ver>.ct-viewport {
+    padding: 25px;
+    border: solid #e5e5e5;
+}
+
+.ct-flatbox.ct-pag-ver.ct-pag-top>.ct-viewport {
+    border-width: 1px 1px 1px 0;
+}
+
+.ct-flatbox.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    border-width: 1px 0 1px 1px;
+}
+
+.ct-flat.ct-pag-ver.ct-pag-top>.ct-viewport,.ct-flatbox.ct-pag-ver.ct-pag-top>.ct-viewport {
+    border-left: 2px solid #c1a26e;
+}
+
+.ct-flat.ct-pag-ver.ct-pag-bottom>.ct-viewport,.ct-flatbox.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    border-right: 2px solid #c1a26e;
+}
+
+.ct-flat.ct-pag-ver.ct-outside.ct-pag-top>.ct-viewport {
+    padding-left: 0;
+    border-left: none;
+}
+
+.ct-flat .ct-tab.ct-pag-ver.ct-outside.ct-pag-top {
+    border-right: 2px solid #c1a26e;
+}
+
+.ct-flat.ct-pag-ver.ct-outside.ct-pag-bottom>.ct-viewport {
+    padding-right: 0;
+    border-right: none;
+}
+
+.ct-flat .ct-tab.ct-pag-ver.ct-outside.ct-pag-bottom {
+    border-left: 2px solid #c1a26e;
+}
+
+.ct-pill>.ct-tab .ct-pagitem {
+    background-color: #f0f0f0;
+}
+
+.ct-pill>.ct-tab .ct-pagitem.ct-cur {
+    background-color: #c1a26e;
+    color: #fff;
+}
+
+.ct-pill>.ct-tab.ct-pag-hor.ct-pag-top {
+    border-bottom: none;
+}
+
+.ct-pill>.ct-tab.ct-pag-hor.ct-pag-bottom {
+    border-top: none;
+}
+
+.ct-pill>.ct-pag-hor .ct-pagitem:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.ct-pill>.ct-pag-hor .ct-pagitem:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ct-pill.ct-pag-hor>.ct-tab .ct-pagitem {
+    margin-right: 0;
+}
+
+.ct-pill.ct-pag-ver.ct-pag-top>.ct-viewport {
+    border-left: none;
+}
+
+.ct-pill.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    border-right: none;
+}
+
+.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 10px 20px;
+}
+
+.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ct-pill.ct-pag-ver.ct-outside.ct-pag-top>.ct-viewport {
+    padding-left: 0;
+}
+
+.ct-pill.ct-pag-ver.ct-outside.ct-pag-bottom>.ct-viewport {
+    padding-right: 0;
+}
+
+.ct-classic>.ct-tab .ct-pagitem.ct-cur:after,.ct-classic>.ct-tab .ct-pagitem.ct-cur:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #217EC2;
+}
+
+.ct-classic>.ct-tab .ct-pagitem.ct-cur {
+    border-color: #217EC2 !important;
+    z-index: 2;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top {
+    border-bottom: none;
+	padding-top:30px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom {
+    border-top: none;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor .ct-pagitem {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid #FFFFFF;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 7px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 7px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem {
+    border-width: 1px 1px 0;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem {
+    border-width: 0 1px 1px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    border-top-width: 6px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    border-bottom-width: 4px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor .ct-pagitem.ct-cur:after,.ct-classic>.ct-tab.ct-pag-hor .ct-pagitem.ct-cur:before {
+    width: 20000px;
+    height: 3px;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur:before {
+    bottom: 0;
+    right: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur:after {
+    bottom: 0;
+    left: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur:before {
+    top: 0;
+    right: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur:after {
+    top: 0;
+    left: 100%;
+}
+
+.ct-classic.ct-pag-ver.ct-pag-top>.ct-viewport {
+    border-left: none;
+}
+
+.ct-classic.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    border-right: none;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 10px 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: solid #e5e5e5;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 17px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 17px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem {
+    border-width: 1px 0 1px 1px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem {
+    border-width: 1px 1px 1px 0;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    border-left-width: 4px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    border-right-width: 4px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur:after,.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur:before {
+    width: 1px;
+    height: 20000px;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur:before {
+    right: 0;
+    bottom: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur:after {
+    right: 0;
+    top: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur:before {
+    left: 0;
+    bottom: 100%;
+}
+
+.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur:after {
+    left: 0;
+    top: 100%;
+}
+
+.ct-classic.ct-pag-ver.ct-outside.ct-pag-top>.ct-viewport {
+    padding-left: 0;
+}
+
+.ct-classic.ct-pag-ver.ct-outside.ct-pag-bottom>.ct-viewport {
+    padding-right: 0;
+}
+
+.ct-underline>.ct-tab.ct-pag-hor {
+    overflow: visible;
+}
+
+
+.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-paginner {
+    top: 1px;
+}
+
+.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-paginner {
+    bottom: 1px;
+}
+
+.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 12px 0;
+    margin: 0 15px;
+}
+
+.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 8px;
+    border-bottom: 4px solid #c1a26e;
+}
+
+.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 8px;
+    border-top: 4px solid #c1a26e;
+}
+
+.ct-underline.ct-pag-ver.ct-pag-top>.ct-viewport {
+    padding-left: 0;
+    border-left: none;
+}
+
+.ct-underline.ct-pag-ver.ct-pag-bottom>.ct-viewport {
+    padding-right: 0;
+    border-right-color: transparent;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 12px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 8px;
+    border-bottom: 4px solid #c1a26e;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem {
+    margin-right: 50px;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem {
+    margin-left: 50px;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver.ct-outside.ct-pag-top .ct-pagitem {
+    margin-right: 0;
+}
+
+.ct-underline>.ct-tab.ct-pag-ver.ct-outside.ct-pag-bottom .ct-pagitem {
+    margin-left: 0;
+}
+
+.ct-size-xlarge>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 20px 32px;
+    
+}
+
+.ct-size-xlarge>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 20px 36px 20px 0;
+}
+
+.ct-size-xlarge.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-size-xlarge.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 21px 36px 19px;
+}
+
+.ct-size-xlarge.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 20px 36px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 17px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 17px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 20px 36px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 33px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 33px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 22px 0;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 18px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 18px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 22px 0;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 18px;
+}
+
+.ct-size-large>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 15px 22px;
+}
+
+.ct-size-large>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 15px 26px 15px 0;
+}
+
+.ct-size-large.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-size-large.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 16px 26px 14px;
+}
+
+.ct-size-large.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 15px 26px;
+}
+
+.ct-size-large.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 12px;
+}
+
+.ct-size-large.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 12px;
+}
+
+.ct-size-large.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 15px 26px;
+}
+
+.ct-size-large.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 23px;
+}
+
+.ct-size-large.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 23px;
+}
+
+.ct-size-large.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 16px 0;
+}
+
+.ct-size-large.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 12px;
+}
+
+.ct-size-large.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 12px;
+}
+
+.ct-size-large.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 16px 0;
+}
+
+.ct-size-large.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 14px;
+}
+
+.ct-size-small>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 8px 12px;
+}
+
+.ct-size-small>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 8px 15px 8px 0;
+}
+
+.ct-size-small.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-size-small.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 9px 15px 7px;
+}
+
+.ct-size-small.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 8px 15px;
+}
+
+.ct-size-small.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 5px;
+}
+
+.ct-size-small.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 5px;
+}
+
+.ct-size-small.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 8px 15px;
+}
+
+.ct-size-small.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 12px;
+}
+
+.ct-size-small.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 12px;
+}
+
+.ct-size-small.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 10px 0;
+}
+
+.ct-size-small.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 6px;
+}
+
+.ct-size-small.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 6px;
+}
+
+.ct-size-small.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 10px 0;
+}
+
+.ct-size-small.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 6px;
+}
+
+.ct-size-mini>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 5px 8px;
+}
+
+.ct-size-mini>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 8px 5px 0;
+}
+
+.ct-size-mini.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-size-mini.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 6px 8px 4px;
+}
+
+.ct-size-mini.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 10px;
+}
+
+.ct-size-mini.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 2px;
+}
+
+.ct-size-mini.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 2px;
+}
+
+.ct-size-mini.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 10px;
+}
+
+.ct-size-mini.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 7px;
+}
+
+.ct-size-mini.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 7px;
+}
+
+.ct-size-mini.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 6px 0;
+}
+
+.ct-size-mini.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 2px;
+}
+
+.ct-size-mini.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 2px;
+}
+
+.ct-size-mini.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 6px 0;
+}
+
+.ct-size-mini.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 4px;
+}
+
+.ct-media {
+    position: absolute;
+    z-index: 3;
+}
+
+.ct-playpause {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: url(imgs/icon_playpause.png) -12px -12px no-repeat;
+    text-indent: -99999px;
+}
+
+.ct-playpause.ct-actived {
+    background-position: -60px -12px;
+}
+
+.ct-arcline .ct-media {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.ct-arcline .ct-playpause {
+    left: 7px;
+    top: 7px;
+    border-radius: 50%;
+}
+
+.ct-arcline .ct-timer {
+    position: absolute;
+}
+
+.ct-arcline.ct-old .ct-timer.ct-timer-bar {
+    background-color: #e5e5e5;
+}
+
+.ct-barless .ct-media {
+    position: relative;
+}
+
+.ct-barless .ct-playpause {
+    right: 4px;
+    bottom: 4px;
+}
+
+.ct-barless .ct-timer-bar {
+    margin-top: -1px;
+    background-color: #e5e5e5;
+}
+
+.ct-barshort .ct-media {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.ct-barshort .ct-playpause {
+    left: 7px;
+    top: 7px;
+}
+
+.ct-barshort .ct-timer {
+    position: absolute;
+}
+
+.ct-numless .ct-media {
+    right: 5px;
+    top: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.ct-numless .ct-timer-number {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: #999;
+    line-height: 30px;
+    border-right: 1px dotted hsla(0,0%,0%,.15);
+}
+
+.ct-numless .ct-playpause {
+    left: 32px;
+    top: 2px;
+}
+
+.ct-bullet,.ct-hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ct-bullet .ct-pagitem,.ct-hover .ct-pagitem {
+    display: block;
+    float: left;
+    width: 7px;
+    height: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: #333;
+    background-color: hsla(0,0%,0%,.2);
+    border-radius: 100%;
+    text-indent: -99999px;
+}
+
+.ct-bullet .ct-pagitem.ct-cur,.ct-bullet .ct-pagitem:hover,.ct-hover .ct-pagitem.ct-cur,.ct-hover .ct-pagitem:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px hsla(0,0%,0%,.5);
+}
+
+.ct-bulletflat .ct-pag {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #c1a26e;
+}
+
+.ct-bulletflat .ct-viewport {
+    padding: 20px;
+    background-color: #fff;
+    border: solid #e5e5e5;
+    border-width: 0 1px 1px;
+}
+
+.tab-full-img {
+	position: absolute;
+	top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+
+.ct-size-xlarge>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 5px 8px;
+}
+
+.ct-size-xlarge>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 8px 5px 0;
+}
+
+.ct-size-xlarge.ct-flat>.ct-tab.ct-pag-ver .ct-pagitem,.ct-size-xlarge.ct-flatbox>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 6px 8px 4px;
+}
+
+.ct-size-xlarge.ct-pill>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 10px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-top: 2px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-bottom: 2px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 5px 10px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver.ct-pag-top .ct-pagitem.ct-cur {
+    padding-left: 7px;
+}
+
+.ct-size-xlarge.ct-classic>.ct-tab.ct-pag-ver.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-right: 7px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor .ct-pagitem {
+    padding: 6px 0;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor.ct-pag-top .ct-pagitem.ct-cur {
+    padding-bottom: 2px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-hor.ct-pag-bottom .ct-pagitem.ct-cur {
+    padding-top: 2px;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem {
+    padding: 6px 0;
+}
+
+.ct-size-xlarge.ct-underline>.ct-tab.ct-pag-ver .ct-pagitem.ct-cur {
+    padding-bottom: 4px;
+}
+
+
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://www.dev.waterrower.co.uk/images/landing-page-background/storedwithease.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+    height: 215px;
+}
+
+.jumbo  {
+    padding-top: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 20px;
+    display: inline-block;
+}
+
+.jumbotron p {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.title {
+    display: inline;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	overflow: hidden;
+}
+
+#worldmap {
+    background: url(http://www.dev.waterrower.co.uk/images/worldmap.jpg);
+    background-size:  130% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+ 	height:300px;
+	width: auto;
+}
+
+#design-club {
+    background: url(http://www.dev.waterrower.co.uk/images/design/design-club.jpg);
+	background-size:  100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 -73px;
+ 	height:350px;
+	width: auto;
+	
+}
+#m1series {
+    background: url(http://www.dev.waterrower.co.uk/images/perfect-exercise/m1-commercial.jpg);
+	background-size:  100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 -73px;
+ 	height:350px;
+	width: auto;
+	
+}
+
+
+
+.download {
+    text-align: center;
+}
+
+.download h2 {
+    color: #FFFFFF;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+
+.download2 {
+    text-align: center;
+}
+
+
+
+.download p {
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.down {
+    margin-bottom: 75px;
+}
+}
+
+@media screen and (max-width: 416px) {
+	
+	/*----------------- background images -home-page------------------*/
+	
+	#mountians {
+    background: url(http://www.dev.waterrower.co.uk/images/waterrower/mountains.jpg)  100% fixed;
+	background-position: 0px -25px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+  
+}
+
+/*----------------- background images ------------------*/
+#design-club {
+    background: url(http://www.dev.waterrower.co.uk/images/design/design-club.jpg);
+	background-size:  125% auto;
+	background-repeat: no-repeat;
+	background-position: top;
+ 	height: 300px;
+	width: auto;
+}
+
+#m1series {
+    background: url(http://www.dev.waterrower.co.uk/images/perfect-exercise/m1-commercial.jpg)  100% fixed;
+	background-size:  143% auto;
+	background-repeat: no-repeat;
+	background-position: -29px 0px;
+ 	height: 300px;
+	width: auto;
+}
+
+#innovation {
+    background: url(http://www.dev.waterrower.co.uk/images/innovation/innovation-background.jpg) 100% 0 fixed;
+	background-position: -129px 0px;
+	background-size: 150%;
+	background-repeat: no-repeat;
+    height: 328px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;	
+}
+
+
+/*----------------- MAIN BLOCKS ------------------*/
+
+.pa-b {
+	padding-bottom: 25px !important;
+	padding-top: 25px;
+	
+	}
+	
+.pa-b-150 {
+	padding-bottom: 25px !important;
+	padding-top: 150px;
+	
+	}
+	
+
+
+.main-title  {
+	padding-top:0px;
+}
+
+.main-title h1 {
+	font-size: 20px;
+}
+.main-title h3 {
+	font-size: 18px;
+}
+
+.subnav li {
+	float: clear;
+	border-right: 0px ;
+	border-left: 0px ;
+}	
+
+.flag-block a {
+   font-size:12px;
+	color:#878787;
+}
+
+
+
+
+.button-gap {
+padding-right:0px;
+
+	}
+
+	.introduction-text {
+    padding-top: 70px;
+    padding-bottom: 75px;
+    text-align: left;
+    padding-left:30px;
+    padding-right: 30px;
+    background-color: #313335;
+    color: #fff;
+    font-size: 13px;
+    Float: right;
+	width:100%
+}
+
+.introduction-text h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.introduction-text h3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    text-align: right;
+}
+
+.introduction-bar {
+	float:left;
+    border-top: 1px solid #c1a26e;
+    width: 150px;
+    padding-bottom: 15px;
+    margin: 0 ;
+}
+
+#text-introduction {
+    color: #c2c2c2;
+    padding-top: 20px;
+}
+	
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://www.dev.waterrower.co.uk/images/landing-page-background/storedwithease.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+    height: 480px;
+}
+
+.jumbo  {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    display: inline-block;
+}
+
+.jumbotron p {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.title {
+    display: inline;
+}
+
+
+
+/* ***********************************************************
+   ******************** CODETABS CORE END************************
+   *********************************************************** */
+
+ /* Tab highlight */
+        .tab-highlight {
+            background-color: rgba(0, 204, 255, .2) !important;
+            color: #777 !important;
+            border: solid #0cf;
+            border-width: 1px 1px 0 1px;
+            margin-bottom: -1px;
+        }
+        .tab-highlight.ct-cur   { background-color: #0cf !important; color: #fff !important; }
